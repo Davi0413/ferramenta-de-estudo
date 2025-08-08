@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards Interativos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flashcards Interativos</h1>
+
+        <div id="flashcard" class="flashcard">
+            <div class="question">
+                <p id="question-text">Qual é a capital da França?</p>
+            </div>
+            <div class="answer">
+                <p id="answer-text">Paris</p>
+            </div>
+        </div>
+
+        <button id="show-answer" class="btn">Mostrar Resposta</button>
+        <button id="next-card" class="btn">Próximo</button>
+
+        <div class="add-flashcard">
+            <h2>Adicionar Novo Flashcard</h2>
+            <input type="text" id="new-question" placeholder="Digite a pergunta">
+            <input type="text" id="new-answer" placeholder="Digite a resposta">
+            <button id="add-flashcard-btn" class="btn">Adicionar Flashcard</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
